@@ -4,9 +4,17 @@ while True:
     import random
     from os import system
 
-# number random.randint is tell the computer how many choice it or it should choice between this range. Basically it instruction for the computer.
+# print is just to displaying something you want the computer to show.
+    print ("This is a dice rolling program")
+    print ("Press the enter button to roll")
+ # input is telling the computer what to do when you something.
+    cmd = raw_input ("Enter to run, q to quit")
+    system("cls")
+
+# number random.randint is tell the computer how many choice it or it should choice between this range. Basically it instruction for the computer.#3
+
     number=random.randint(1,6)
-"if" is that when it choose the number after this == it should show what you set it to show.
+# "if" is that when it choose the number after this == it should show what you set it to show.
     if number==1:
         print"[------------]"
         print"[            ]"
